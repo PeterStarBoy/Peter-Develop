@@ -1,2 +1,2 @@
 <?php
-	echo "am I successed?";
+	echo "am I successed? just try it";
