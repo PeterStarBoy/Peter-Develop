@@ -1,0 +1,45 @@
+[ 2017-05-27T20:59:03+08:00 ] 127.0.0.1 /index.php/Admin/Public/login
+ERR: 无法加载控制器:Public
+
+[ 2017-05-27T22:36:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/__SOURCE__/css/style.css
+ERR: 非法操作:__SOURCE__
+
+[ 2017-05-27T22:36:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/__SOURCE__/JS/menu.JS
+ERR: 非法操作:__SOURCE__
+
+[ 2017-05-27T22:36:10+08:00 ] 127.0.0.1 /index.php/Admin/Book/__SOURCE__/css/style.css
+ERR: 非法操作:__SOURCE__
+
+[ 2017-05-27T22:36:10+08:00 ] 127.0.0.1 /index.php/Admin/Book/__SOURCE__/JS/menu.JS
+ERR: 非法操作:__SOURCE__
+
+[ 2017-05-27T22:50:04+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/css/style.css
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:04+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/js/menu.JS
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:05+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/js/menu.JS
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:05+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/css/style.css
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:11+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/css/style.css
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:11+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/js/menu.JS
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:12+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/js/menu.JS
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:12+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/css/style.css
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:50:59+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/css/style.css
+ERR: 非法操作:BookManagement
+
+[ 2017-05-27T22:51:18+08:00 ] 127.0.0.1 /index.php/Admin/Book/BookManagement/Public/Admin/js/menu.JS
+ERR: 非法操作:BookManagement
+

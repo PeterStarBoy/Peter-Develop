@@ -1,0 +1,65 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+<title>学校图书馆管理系统</title>
+<link href="__ASRC__/css/style.css" rel="stylesheet">
+</head>
+<table width="776" border="0" align="center" cellpadding="0" cellspacing="0" class="tableBorder">
+  <tr>
+    <td><include file='Navigation/navigation' /></td>
+  </tr>
+	<td bgcolor="#FFFFFF">
+	<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF"><table width="100%" height="510"  border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableBorder_gray">
+  <tr>
+    <td align="center" valign="top" style="padding:5px;"><table width="738"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="148" valign="top"><table width="738"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="753" height="44" background="__ASRC__/image/main_booksort.gif">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="72" valign="top" background="__ASRC__/image/main_booksort_1.gif"><table width="740"  border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bordercolordark="#D2E3E6" bordercolorlight="#FFFFFF">
+              <tr align="center">
+                <td width="4%" height="25">排名</td>
+                <td width="10%">图书条形码</td>
+                <td width="22%">图书名称</td>
+                <td width="11%">图书类型</td>
+                <td width="9%">书架</td>
+                <td width="13%">出版社</td>
+                <td width="15%">作者</td>
+                <td width="8%">定价(元)</td>
+                <td width="8%">借阅次数</td>
+              </tr>
+			  <volist name='book' id='valbook'>
+              <tr>
+                <td height="25" align="center"><?php echo $i;?></td>
+                <td style="padding:5px;">&nbsp;{$valbook.barcode}</td>
+                <td style="padding:5px;">{$valbook.bookname}</td>
+                <td style="padding:5px;">{$valbook.typename}</td>
+                <td align="center">&nbsp;{$valbook.name}</td>
+                <td align="center">&nbsp;{$valbook.pubname}</td>
+                <td align="center">{$valbook.author}</td>
+                <td align="center">{$valbook.price}</td>
+                <td align="center">{$valbook.times}</td>
+              </tr>
+			 </volist>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="19" background="__ASRC__/image/main_booksort_2.gif">&nbsp;</td>
+          </tr>
+        </table>
+          </td>
+      </tr>
+    </table>
+      <p>{$show}</p></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+<include file="Footer/copyright" /></td>
+  </tr>
+</table>
+</html>

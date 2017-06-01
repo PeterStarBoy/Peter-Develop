@@ -1,0 +1,6 @@
+[ 2017-05-28T10:54:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/url(http://web.heeloo.com/BookManagement/Public/Admin/image/main_booksort.gif)
+ERR: 非法操作:url(http:
+
+[ 2017-05-28T10:54:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/url(http://web.heeloo.com/BookManagement/Public/Admin/image/main_booksort.gif)
+ERR: 非法操作:url(http:
+

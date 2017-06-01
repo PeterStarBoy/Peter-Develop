@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="__ASRC__/css/style.css" rel="stylesheet">
+<style type="text/css">
+<!--
+.style1 {color: #FF6600}
+-->
+</style>
+</head>
+<script language="javascript">
+function check(form){
+	if(form.barcode.value==""){
+		alert("请输入条形码!");form.barcode.focus();return false;
+	}
+	if(form.bookName.value==""){
+		alert("请输入图书姓名!");form.bookName.focus();return false;
+	}
+	if(form.price.value==""){
+		alert("请输入图书定价!");form.price.focus();return false;
+	}
+form.submit();
+}
+</script>
+<body>
+<table width="776" border="0" align="center" cellpadding="0" cellspacing="0" class="tableBorder">
+  <tr>
+    <td>
+	<include file="Navigation/navigation" />
+	</td>
+  </tr>
+	<td>
+	<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF"><table width="99%" height="475"  border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableBorder_gray">
+  <tr>
+    <td height="473" align="center" valign="top" style="padding:5px;"><table width="98%" height="463"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="22" valign="top" class="word_orange">当前位置：图书档案管理 &gt; 修改图书信息 &gt;&gt;&gt;</td>
+      </tr>
+      <tr>
+        <td height="441" align="center" valign="top"><table width="100%" height="421"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="421" align="center" valign="top">
+	<form name="form1" method="post" action="book_modify_ok.php">
+    <input type="hidden" name="id" value="{$data.id}">
+    <table width="600" height="397"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="173" align="center">条&nbsp;形&nbsp;码：</td>
+        <td width="427" height="33">
+          <input name="barcode" type="text" id="barcode" value="{$data.barcode}"></td>
+      </tr>
+      <tr>
+        <td align="center">图书名称：</td>
+        <td height="35"><input name="bookname" type="text" id="bookName" value="{$data.bookname}" size="50">
+          <span class="style1">*</span></td>
+      </tr>
+      <tr>
+        <td height="35" align="center">图书类型：</td>
+        <td>
+		<select name="typeid" class="wenbenkuang" id="typeId">
+		<volist name='type' id='valtype'>
+        <option value="{$valtype.id}" <if condition="$data['typeid'] == $valtype['id']">selected</if>>{$valtype.typename}</option>
+		</volist>
+        </select>		</td>
+      </tr>
+      <tr>
+        <td align="center">作&nbsp;&nbsp;者：</td>
+        <td><input name="author" type="text" id="author" value="{$data.author}" size="40"></td>
+      </tr>
+      <tr>
+        <td height="36" align="center">译&nbsp;&nbsp;者：</td>
+        <td><input name="translator" type="text" id="translator" value="{$data.translator}" size="40"></td>
+      </tr>
+      <tr>
+        <td height="34" align="center">出&nbsp;版&nbsp;社：</td>
+        <td>
+		<select name="ISBN" class="wenbenkuang">
+		<volist name='pub' id='valpub'>	
+        <option value="{$valpub.isbn}" <if condition="$data['isbn'] == $valpub['isbn']">selected</if>>{$valpub.pubname}</option>
+		</volist>
+		</select>		</td>
+      </tr>
+      <tr>
+        <td align="center">价&nbsp;&nbsp;格：</td>
+        <td><input name="price" type="text" id="price" value="{$data.price}">
+        (元)</td>
+      </tr>
+      <tr>
+        <td align="center">页&nbsp;&nbsp;码：</td>
+        <td><input name="page" type="text" id="page" value="{$data.page}"></td>
+      </tr>
+      <tr>
+        <td height="34" align="center">书&nbsp;&nbsp;架：</td>
+        <td><select name="bookcase" class="wenbenkuang" id="bookcaseid">
+		<volist name='case' id='valcase'>
+		  <option value="{$valcase.id}" <if condition=" $data['bookcase'] == $valcase['id'] ">selected</if>>{$valcase.name}</option>
+		</volist>
+        </select>
+          <input name="operator" type="hidden" id="operator" value=""></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><input name="Submit" type="submit" class="btn_grey" value="保存" onClick="return check(form1)">&nbsp;
+			<input name="Submit2" type="button" class="btn_grey" value="返回" onClick="history.back();"></td>
+        </tr>
+    </table>
+	</form>	</td>
+  </tr>
+</table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table><include file="Footer/copyright" /></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+</html>
+

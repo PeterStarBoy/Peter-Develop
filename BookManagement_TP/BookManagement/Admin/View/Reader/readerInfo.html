@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="__ASRC__/css/style.css" rel="stylesheet">
+</head>
+<body>
+<table width="776" border="0" align="center" cellpadding="0" cellspacing="0" class="tableBorder">
+  <tr>
+    <td>
+	<include file="Navigation/navigation" />
+	</td>
+	</tr>
+	<td>
+	<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF"><table width="99%" height="510"  border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableBorder_gray">
+  <tr>
+    <td height="510" valign="top" style="padding:5px;"><table width="98%" height="487"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="22" valign="top" class="word_orange">当前位置：读者管理 &gt; 读者档案管理 &gt; 查看读者信息 &gt;&gt;&gt;</td>
+      </tr>
+      <tr>
+        <td align="center" valign="top"><table width="100%" height="493"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center" valign="top">
+
+	<table width="600" height="432"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="173" align="center">姓名：</td>
+        <td width="427" height="39">
+          <input name="name" type="text" value="{$info['name']}"> 
+         </td>
+      </tr>
+      <tr>
+        <td width="173" align="center">性别：</td>
+        <td height="35">
+		<if condition="$info['sex'] == '男'">
+		  <input name="sex" type="radio" class="noborder" id="radiobutton"  value="男" checked>男
+		<else />
+          <input name="sex" type="radio" class="noborder" value="女" checked>女
+		</if>
+          </td>
+      </tr>
+      <tr>
+        <td align="center">条形码：</td>
+        <td><input name="barcode" type="text" id="barcode" value="{$info['barcode']}">
+ </td>
+      </tr>
+      <tr>
+        <td align="center">读者类型：</td>
+        <td><input name="typename" type="text" id="typename" value="{$info['typename']}"></td>
+      </tr>
+      <tr>
+        <td align="center">职业：</td>
+        <td><input name="vocation" type="text" id="vocation" value="{$info['vocation']}"></td>
+      </tr>
+      <tr>
+        <td align="center">出生日期：</td>
+        <td><input name="birthday" type="text" id="birthday" value="{$info['birthday']}"></td>
+      </tr>
+      <tr>
+        <td align="center">有效证件：</td>
+        <td><input name="paperType" type="text" id="paperType" value="{$info['papertype']}"></td>
+      </tr>
+      <tr>
+        <td align="center">证件号码：</td>
+        <td><input name="paperNO" type="text" id="paperNO" value="{$info['paperno']}"> 
+           </td>
+      </tr>
+      <tr>
+        <td align="center">电话：</td>
+        <td><input name="tel" type="text" id="tel" value="{$info['tel']}"></td>
+      </tr>
+      <tr>
+        <td align="center">E-mail：</td>
+        <td><input name="email" type="text" id="email" value="{$info['email']}" size="50">
+          </td>
+      </tr>
+      <tr>
+        <td align="center">备注：</td>
+        <td><textarea name="remark" cols="60" rows="6" class="wenbenkuang" id="remark">{$info['remark']}</textarea></td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td>
+  <input name="Submit2" type="button" class="btn_grey" value="返回" onClick="history.back()"></td></tr>
+    </table>
+	</td>
+  </tr>
+</table></td>
+      </tr>
+    </table>
+</td>
+  </tr>
+</table><include file="Footer/copyright" /></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</body>
+</html>

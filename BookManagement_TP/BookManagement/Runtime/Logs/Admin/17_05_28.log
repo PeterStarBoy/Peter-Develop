@@ -1,0 +1,4 @@
+[ 2017-05-28T16:48:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/index
+ERR: 1054:Unknown column 'times' in 'order clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM tb_bookinfo t1 join tb_booktype t2 on t1.typeid = t2.id join tb_bookcase t3 on t1.bookcase = t3.id join tb_publishing t4 on t1.ISBN = t4.ISBN join tb_borrow t5 on t1.id = t5.bookid  GROUP BY t5.bookid ORDER BY times desc LIMIT 1  
+
