@@ -1,0 +1,16 @@
+[ 2017-06-03T09:51:32+08:00 ] 127.0.0.1 /index.php/Admin/Bookcase/ifexists?bookcase=PHP%E4%B9%A6%E6%9E%B6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `tb_bookcase` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `tb_bookcase` WHERE ( name = 'PHP书架' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-06-03T09:57:00+08:00 ] 127.0.0.1 /index.php/Admin/Query/book_look.php?id=
+ERR: 非法操作:book_look.php
+
+[ 2017-06-03T10:01:48+08:00 ] 127.0.0.1 /index.php/Admin/Query/book_look.php?id=
+ERR: 非法操作:book_look.php
+

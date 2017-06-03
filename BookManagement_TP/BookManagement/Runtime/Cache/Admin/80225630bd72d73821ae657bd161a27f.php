@@ -1,14 +1,18 @@
-<?php if (!defined('THINK_PATH')) exit();?><head>
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<title>图书馆管理系统</title>
 <link href="/BookManagement/Public/Admin/css/style.css" rel="stylesheet">
 </head>
 <body>
+<script language="javascript">
+function history_back(){
+window.location.href="/index.php/Admin/Book/index";
+}
+</script>
 <table width="776" border="0" align="center" cellpadding="0" cellspacing="0" class="tableBorder">
   <tr>
     <td>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script language='javascript'>
-	var path = "/index.php/Admin";
-</script>
 <script src="/BookManagement/Public/Admin/js/menu.JS"></script>
 <div class=menuskin id=popmenu
       onmouseover="clearhidemenu();highlightmenu(event,'on')"
@@ -38,7 +42,7 @@
 </table>
 
 	</td>
-	</tr>
+  </tr>
 	<td>
 	<table width="100%"  border="0" cellspacing="0" cellpadding="0">
   <tr>
@@ -46,53 +50,64 @@
   <tr>
     <td height="510" align="center" valign="top" style="padding:5px;"><table width="98%" height="487"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td height="22" valign="top" class="word_orange">当前位置：读者管理 &gt; 读者档案管理 &gt;&gt;&gt;</td>
+        <td height="22" valign="top" class="word_orange">当前位置：图书档案管理 &gt; 图书详细信息 &gt;&gt;&gt;</td>
       </tr>
       <tr>
-        <td align="center" valign="top">
-	<?php if(empty($reader)): ?><table width="100%" height="30"  border="0" cellpadding="0" cellspacing="0">
-            <tr>
-              <td height="36" align="center">暂无读者信息！</td>
-            </tr>
-          </table>
-          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <td align="center" valign="top"><table width="100%" height="493"  border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td>
-      <a href="/index.php/Admin/Reader/readerAdd">添加读者信息</a> </td>
+    <td align="center" valign="top">
+
+	<table width="600" height="432"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="173" align="center">条&nbsp;形&nbsp;码：</td>
+        <td width="427" height="39">
+          <input name="barcode" type="text" id="barcode" value="<?php echo ($data["barcode"]); ?>"></td>
+      </tr>
+      <tr>
+        <td align="center">图书名称：</td>
+        <td height="39"><input name="bookName" type="text" id="bookName" value="<?php echo ($data["bookname"]); ?>" size="50"> 
+        * </td>
+      </tr>
+      <tr>
+        <td align="center">图书类型：</td>
+        <td>
+		<input type="text" value="<?php echo ($data["typename"]); ?>">
+         </td>
+      </tr>
+      <tr>
+        <td align="center">作&nbsp;&nbsp;者：</td>
+        <td><input name="author" type="text" id="author" value="<?php echo ($data["author"]); ?>" size="40"></td>
+      </tr>
+      <tr>
+        <td align="center">译&nbsp;&nbsp;者：</td>
+        <td><input name="translator" type="text" id="translator" value="<?php echo ($data["translator"]); ?>" size="40"></td>
+      </tr>
+      <tr>
+        <td align="center">出&nbsp;版&nbsp;社：</td>
+        <td>
+		<input name="isbn" type="text" class="wenbenkuang" value="<?php echo ($data["pubname"]); ?>">
+        </td>
+      </tr>
+      <tr>
+        <td align="center">价&nbsp;&nbsp;格：</td>
+        <td><input name="price" type="text" id="price" value="<?php echo ($data["price"]); ?>">
+        (元)</td>
+      </tr>
+      <tr>
+        <td align="center">页&nbsp;&nbsp;码：</td>
+        <td><input name="page" type="text" id="page" value="<?php echo ($data["page"]); ?>"></td>
+      </tr>
+      <tr>
+        <td align="center">书&nbsp;&nbsp;架：</td>
+        <td><input name="bookcaseid" class="wenbenkuang" value="<?php echo ($data["name"]); ?>">
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+			  <input name="Submit2" type="button" class="btn_grey" value="返回" onClick="history_back();"></td>
+        </tr>
+    </table>
+	</td>
   </tr>
-</table>
-	<?php else: ?>
-  <table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="87%">&nbsp;      </td>
-<td width="13%">
-      <a href="/index.php/Admin/Reader/readerAdd">添加读者信息</a></td>	  
-  </tr>
-</table>  
-  <table width="96%"  border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bordercolordark="#D2E3E6" bordercolorlight="#FFFFFF">
-  <tr align="center" bgcolor="#e3F4F7">
-    <td width="13%">条形码</td>  
-    <td width="10%">姓名</td>
-    <td width="8%">读者类型</td>
-    <td width="10%">证件类型</td>
-    <td width="18%">证件号码</td>
-    <td width="15%">电话</td>
-    <td width="15%">E-mail</td>
-    <td colspan="2">操作</td>
-  </tr>
-	<?php if(is_array($reader)): $i = 0; $__LIST__ = $reader;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$valreader): $mod = ($i % 2 );++$i;?><tr>
-    <td style="padding:5px;"><?php echo ($valreader['barcode']); ?></td>  
-    <td style="padding:5px;"><a href="/index.php/Admin/Reader/readerInfo/id/<?php echo ($valreader['id']); ?>"><?php echo ($valreader['name']); ?></a></td>
-    <td style="padding:5px;"><?php echo ($valreader['typename']); ?></td>
-    <td align="center"><?php echo ($valreader['papertype']); ?></td>
-    <td align="center"><?php echo ($valreader['paperno']); ?></td>
-    <td>&nbsp;<?php echo ($valreader['tel']); ?></td>
-    <td align="left">&nbsp;<?php echo ($valreader['email']); ?></td>
-    <td width="6%" align="center"><a href="/index.php/Admin/Reader/readerModify/id/<?php echo ($valreader['id']); ?>">修改</a></td>
-    <td width="5%" align="center"><a href="/index.php/Admin/Reader/readerDel/id/<?php echo ($valreader['id']); ?>">删除</a></td>
-  </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>
-	<tr align = 'center'><td colspan = 8>&nbsp;</td></tr>
-	<tr align = 'center'><td colspan = 8><?php echo ($show); ?></td></tr>
 </table></td>
       </tr>
     </table></td>
@@ -122,3 +137,4 @@
   </tr>
 </table>
 </body>
+</html>

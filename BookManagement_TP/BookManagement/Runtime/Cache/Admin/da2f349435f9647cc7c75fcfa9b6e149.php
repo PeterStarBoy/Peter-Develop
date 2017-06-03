@@ -1,4 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language='javascript'>
+	var path = "/index.php/Admin";
+</script>
 <script src="/BookManagement/Public/Admin/js/menu.JS"></script>
 <div class=menuskin id=popmenu
       onmouseover="clearhidemenu();highlightmenu(event,'on')"

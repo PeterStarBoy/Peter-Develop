@@ -8,6 +8,9 @@
   <tr>
     <td>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language='javascript'>
+	var path = "/index.php/Admin";
+</script>
 <script src="/BookManagement/Public/Admin/js/menu.JS"></script>
 <div class=menuskin id=popmenu
       onmouseover="clearhidemenu();highlightmenu(event,'on')"
@@ -66,7 +69,7 @@
         <option value="name">书架</option>
                   </select>
       <input name="value" type="text" id="key1" size="50">
-      <input name="Submit" type="submit" class="btn_grey" value="查询"></td>
+      <input type="submit" class="btn_grey" value="查询"></td>
   </tr>
 </table>
 </form>

@@ -1,0 +1,7 @@
+1. the time display in the left side of navigation need to be fixed.
+2. keyborad enter submit issue.
+3. page split limiter issue.
+4. system query page split.
+5. bookborrow problem, borrow a new book and show new list.
+6. borrowback fixing.
+7. booklook.html display under sysquery.

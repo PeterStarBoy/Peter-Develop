@@ -1,4 +1,6 @@
-<?php if (!defined('THINK_PATH')) exit();?><head>
+<?php if (!defined('THINK_PATH')) exit();?><html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="/BookManagement/Public/Admin/css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -6,9 +8,6 @@
   <tr>
     <td>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script language='javascript'>
-	var path = "/index.php/Admin";
-</script>
 <script src="/BookManagement/Public/Admin/js/menu.JS"></script>
 <div class=menuskin id=popmenu
       onmouseover="clearhidemenu();highlightmenu(event,'on')"
@@ -44,58 +43,80 @@
   <tr>
     <td valign="top" bgcolor="#FFFFFF"><table width="99%" height="510"  border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableBorder_gray">
   <tr>
-    <td height="510" align="center" valign="top" style="padding:5px;"><table width="98%" height="487"  border="0" cellpadding="0" cellspacing="0">
+    <td height="510" valign="top" style="padding:5px;"><table width="98%" height="487"  border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td height="22" valign="top" class="word_orange">当前位置：读者管理 &gt; 读者档案管理 &gt;&gt;&gt;</td>
+        <td height="22" valign="top" class="word_orange">当前位置：读者管理 &gt; 读者档案管理 &gt; 查看读者信息 &gt;&gt;&gt;</td>
       </tr>
       <tr>
-        <td align="center" valign="top">
-	<?php if(empty($reader)): ?><table width="100%" height="30"  border="0" cellpadding="0" cellspacing="0">
-            <tr>
-              <td height="36" align="center">暂无读者信息！</td>
-            </tr>
-          </table>
-          <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <td align="center" valign="top"><table width="100%" height="493"  border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td>
-      <a href="/index.php/Admin/Reader/readerAdd">添加读者信息</a> </td>
+    <td align="center" valign="top">
+
+	<table width="600" height="432"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="173" align="center">姓名：</td>
+        <td width="427" height="39">
+          <input name="name" type="text" value="<?php echo ($info['name']); ?>"> 
+         </td>
+      </tr>
+      <tr>
+        <td width="173" align="center">性别：</td>
+        <td height="35">
+		<?php if($info['sex'] == '男'): ?><input name="sex" type="radio" class="noborder" id="radiobutton"  value="男" checked>男
+		<?php else: ?>
+          <input name="sex" type="radio" class="noborder" value="女" checked>女<?php endif; ?>
+          </td>
+      </tr>
+      <tr>
+        <td align="center">条形码：</td>
+        <td><input name="barcode" type="text" id="barcode" value="<?php echo ($info['barcode']); ?>">
+ </td>
+      </tr>
+      <tr>
+        <td align="center">读者类型：</td>
+        <td><input name="typename" type="text" id="typename" value="<?php echo ($info['typename']); ?>"></td>
+      </tr>
+      <tr>
+        <td align="center">职业：</td>
+        <td><input name="vocation" type="text" id="vocation" value="<?php echo ($info['vocation']); ?>"></td>
+      </tr>
+      <tr>
+        <td align="center">出生日期：</td>
+        <td><input name="birthday" type="text" id="birthday" value="<?php echo ($info['birthday']); ?>"></td>
+      </tr>
+      <tr>
+        <td align="center">有效证件：</td>
+        <td><input name="paperType" type="text" id="paperType" value="<?php echo ($info['papertype']); ?>"></td>
+      </tr>
+      <tr>
+        <td align="center">证件号码：</td>
+        <td><input name="paperNO" type="text" id="paperNO" value="<?php echo ($info['paperno']); ?>"> 
+           </td>
+      </tr>
+      <tr>
+        <td align="center">电话：</td>
+        <td><input name="tel" type="text" id="tel" value="<?php echo ($info['tel']); ?>"></td>
+      </tr>
+      <tr>
+        <td align="center">E-mail：</td>
+        <td><input name="email" type="text" id="email" value="<?php echo ($info['email']); ?>" size="50">
+          </td>
+      </tr>
+      <tr>
+        <td align="center">备注：</td>
+        <td><textarea name="remark" cols="60" rows="6" class="wenbenkuang" id="remark"><?php echo ($info['remark']); ?></textarea></td>
+      </tr>
+      <tr>
+        <td align="center">&nbsp;</td>
+        <td>
+  <input name="Submit2" type="button" class="btn_grey" value="返回" onClick="history.back()"></td></tr>
+    </table>
+	</td>
   </tr>
-</table>
-	<?php else: ?>
-  <table width="100%"  border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="87%">&nbsp;      </td>
-<td width="13%">
-      <a href="/index.php/Admin/Reader/readerAdd">添加读者信息</a></td>	  
-  </tr>
-</table>  
-  <table width="96%"  border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bordercolordark="#D2E3E6" bordercolorlight="#FFFFFF">
-  <tr align="center" bgcolor="#e3F4F7">
-    <td width="13%">条形码</td>  
-    <td width="10%">姓名</td>
-    <td width="8%">读者类型</td>
-    <td width="10%">证件类型</td>
-    <td width="18%">证件号码</td>
-    <td width="15%">电话</td>
-    <td width="15%">E-mail</td>
-    <td colspan="2">操作</td>
-  </tr>
-	<?php if(is_array($reader)): $i = 0; $__LIST__ = $reader;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$valreader): $mod = ($i % 2 );++$i;?><tr>
-    <td style="padding:5px;"><?php echo ($valreader['barcode']); ?></td>  
-    <td style="padding:5px;"><a href="/index.php/Admin/Reader/readerInfo/id/<?php echo ($valreader['id']); ?>"><?php echo ($valreader['name']); ?></a></td>
-    <td style="padding:5px;"><?php echo ($valreader['typename']); ?></td>
-    <td align="center"><?php echo ($valreader['papertype']); ?></td>
-    <td align="center"><?php echo ($valreader['paperno']); ?></td>
-    <td>&nbsp;<?php echo ($valreader['tel']); ?></td>
-    <td align="left">&nbsp;<?php echo ($valreader['email']); ?></td>
-    <td width="6%" align="center"><a href="/index.php/Admin/Reader/readerModify/id/<?php echo ($valreader['id']); ?>">修改</a></td>
-    <td width="5%" align="center"><a href="/index.php/Admin/Reader/readerDel/id/<?php echo ($valreader['id']); ?>">删除</a></td>
-  </tr><?php endforeach; endif; else: echo "" ;endif; endif; ?>
-	<tr align = 'center'><td colspan = 8>&nbsp;</td></tr>
-	<tr align = 'center'><td colspan = 8><?php echo ($show); ?></td></tr>
 </table></td>
       </tr>
-    </table></td>
+    </table>
+</td>
   </tr>
 </table><table width="776" height="70"  border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
@@ -122,3 +143,4 @@
   </tr>
 </table>
 </body>
+</html>

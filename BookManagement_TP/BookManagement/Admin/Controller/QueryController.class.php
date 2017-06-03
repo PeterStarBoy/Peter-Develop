@@ -14,34 +14,62 @@ class QueryController extends CommonController
 		  mysql select
 		  show dates
 		 */
-			$data = I('post.');
-			$data['value'] = isset($data['value']) ? trim($data['value']) : '';
-			$model = M('Bookinfo');
-			if(IS_POST) 
-			{
+		 $data = I('post.') ? I('post.') : I('get.');
+		 //dump($data);die;
+		 $data['value'] = trim($data['value']);
+		 $model = M('Bookinfo');
+			if(IS_POST || I('get.p')) 
+			{				
 				//see if the value is empty.
 				if(empty($data['value'])) 
 				{
+					//instance page split
 					//original sql sentence
 					//select t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name from tb_bookinfo t1 join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id order by $data['field'];
-					$book = $model -> field("t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name") -> alias("t1") -> join("join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id") -> order("{$data['field']}") -> select();
+					$count = $model -> field("t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name") -> alias("t1") -> join("join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id") -> count();
 				} 
 				else 
 				{
 					//field is not empty
 					//original sql
 					//select t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name from tb_bookinfo t1 join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id where {$data['field']} like "%{$data['value']}%" order by $data['field'];
-					$book = $model -> field("t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name") -> alias("t1") -> join("join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id") -> where("{$data['field']} like '%{$data['value']}%'") -> select();
+					$count = $model -> field("t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name") -> alias("t1") -> join("join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id") -> where("{$data['field']} like '%{$data['value']}%'") -> count();
 				}
+				$page = new \Think\Page($count, 2);
+				$page -> rollPage = 1;
+				$page -> lastSuffix = false;
+				$page -> setConfig('prev', '上一页');
+				$page -> setConfig('next', '下一页');
+				$page -> setConfig('last', '尾页');
+				$page -> setConfig('first', '首页');
+				$page -> parameter = $data;
+				//dump($page->parameter);die;
+				$show = $page -> show();
+				if(empty($data['value'])) 
+				{
+					//instance page split
+					//original sql sentence
+					//select t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name from tb_bookinfo t1 join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id order by $data['field'];
+					$book = $model -> field("t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name") -> alias("t1") -> join("join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id") -> order("{$data['field']}") -> limit($page -> firstRow, $page -> listRows) -> select();
+				} 
+				else 
+				{
+					//field is not empty
+					//original sql
+					//select t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name from tb_bookinfo t1 join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id where {$data['field']} like "%{$data['value']}%" order by $data['field'];
+					$book = $model -> field("t1.barcode, t1.bookname, t2.typename, t3.pubname, t4.name") -> alias("t1") -> join("join tb_booktype t2 on t1.typeid = t2.id join tb_publishing t3 on t1.ISBN = t3.ISBN join tb_bookcase t4 on t1.bookcase = t4.id") -> where("{$data['field']} like '%{$data['value']}%'") -> limit($page -> firstRow, $page -> listRows) -> select();
+				}
+				//dump($book);die;
 				if($book) 
 				{
+					$this -> assign('show', $show);
 					$this -> assign('book', $book);
 				} 
 				else 
 				{
 					echo "<script>window.alert('没有找到你需要的结果！'); </script>";
 				}
-			}
+		}
 		$this -> display();
 	}
 
