@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>视频</title>
+</head>
+<include file='Top/top' />
+<body>
+<table width="1004" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+	<td colspan="3"><img src="__HSRC__/images/子页_02.gif" width="1004" height="40"></td>
+	</tr>
+	<tr>
+	<td width="39" background="__HSRC__/images/子页_03.gif">&nbsp;</td>
+	<td width="908">
+		<table width="900" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="36">
+				<table width="880" height="36" border="0" cellpadding="0" cellspacing="0" background="__HSRC__/images/子页_08.gif">
+					<tr>
+						<td width="65">&nbsp;</td>
+						<td width="815"><span class="stpe_STYLE1"><span style="color:red; font-size:20px; font-weight:bold;">热播排行</span></span></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table width="100%" height="49%" border="0" align="center" cellpadding="0" cellspacing="0">
+					<empty name='data'>
+					<tr>
+					<td colspan="2" align="center">没有该类视频！</td>
+					</tr>
+					</empty>
+					<tr>
+					<td colspan="5" height="10"></td>
+					</tr>    
+					<tr> 
+					<volist name='data' id='dataval'>
+					<td colspan="5">
+						<table width="300" border="0" cellspacing="0" cellpadding="0" >
+							<tr>
+								<td width="150" align="center" valign="middle">
+								<a href="look.php?video_id={$video[video_id].tb_video_id}&video_name=}" target="_blank">
+								<img name="news" src="__HSRC__/images/{$dataval['tb_video_picture']}" width="130" height="150" alt="在线观看" border="0"/></a>
+								</td>
+								<td width="150" align="center" valign="middle">
+									<table width="150" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+										<td height="25" colspan="2"><span style="color:red">{$dataval['tb_video_mame']}</span></td>
+										</tr>
+										<tr>
+										<td width="40" height="25" align="right" valign="middle">类型：</td>
+										<td width="110"><div>{$dataval['tb_type_name']}</div>
+										</td>
+										</tr>
+										<tr>
+										<td align="right" valign="middle">简介：</td>
+										<td><span style="color:red">{$dataval['tb_video_explain']}</span></td>
+										</tr>
+										<tr>
+										<td height="25" align="right" valign="middle">播放：</td>
+										<td><span style="color:red">{$dataval['tb_video_play']}</span></td>
+										</tr>
+										<tr>
+										<td height="25" align="right" valign="middle">播客：</td>
+										<td><span style="color:red">{$dataval['tb_video_author']}</span></td>
+										</tr>
+										<tr>
+										<td height="25" colspan="2" align="center" valign="middle"><a href="__MODULE__/Index/index/id/{$dataval['tb_video_id']}" >播放</a> &nbsp;&nbsp;<a href="__CONTROLLER__/download/id/{$dataval['tb_video_id']}">下载</a>
+
+										&nbsp;&nbsp;<a href="#" onClick="javascript:Wopen=open('__CONTROLLER__/showIntro/id/{$dataval['tb_video_id']}','','height=700,width=665,scrollbars=no');">简介</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+					</volist>
+				</tr> 
+			</table>
+			<tr><td>&nbsp;</td></tr>
+			<tr>
+				<td colspan="2" align="center">
+				{$show}
+				</td>
+			</tr>
+		</td>
+	</tr>
+	</table>
+</td>
+<td width="57" background="__HSRC__/images/子页_05.gif">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3"><img src="__HSRC__/images/子页_12.gif" width="1004" height="35"></td>
+</tr>
+</table>
+<img src="__HSRC__/images/登录后_11.gif" width="1004" height="85">
+</body>
+</html>

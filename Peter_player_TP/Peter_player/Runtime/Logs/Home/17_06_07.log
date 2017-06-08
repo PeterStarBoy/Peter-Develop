@@ -1,0 +1,33 @@
+[ 2017-06-07T09:39:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-07T09:39:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-07T09:39:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-07T09:42:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-07T09:42:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-07T09:42:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-07T09:45:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+
+[ 2017-06-07T09:45:05+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+
+[ 2017-06-07T09:45:08+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+
+[ 2017-06-07T09:45:25+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/my_video_manage.php?video_user=peter
+ERR: 非法操作:my_video_manage.php
+
+[ 2017-06-07T09:45:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+

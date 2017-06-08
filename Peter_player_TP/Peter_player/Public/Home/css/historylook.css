@@ -1,0 +1,10 @@
+/* CSS Document */
+*{margin:0px; padding:0px; font-size:12px;}
+h4{background:#00CCFF; border-bottom:1px solid #99FF99;}
+body{ text-align:center;}
+.div1{ border:1px solid #00CCFF; width:960px; height:232px; margin:5px auto;}
+.div2{ display: inline;border:1px solid #FF3399; margin:5px 0 5px 5px; width:160px; height:200px;}
+.pic1{ width:120px; height:120px; border:1px solid #CCCCCC; margin:4px;}
+.title{ font-size:14px; margin:2px;}
+.author{ margin:2px; border-top:1px dashed #CCCCCC;}
+.time{ margin:2px; border-bottom:1px dashed #CCCCCC; border-top:1px solid dashed #CCCCCC; line-height:16px;}

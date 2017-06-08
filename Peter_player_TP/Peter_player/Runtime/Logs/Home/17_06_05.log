@@ -1,0 +1,746 @@
+[ 2017-06-05T10:25:08+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/hotplay
+ERR: 无法加载控制器:Hotplay
+
+[ 2017-06-05T10:25:31+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/hotplay
+ERR: 无法加载控制器:Hotplay
+
+[ 2017-06-05T10:43:51+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=}
+ERR: 非法操作:look.php
+
+[ 2017-06-05T10:51:14+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/hotplay
+ERR: XML标签语法错误
+
+[ 2017-06-05T10:51:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/index.php
+ERR: 非法操作:index.php
+
+[ 2017-06-05T10:51:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/index.php
+ERR: 非法操作:index.php
+
+[ 2017-06-05T10:59:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/index.php
+ERR: 非法操作:index.php
+
+[ 2017-06-05T10:59:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/index.php
+ERR: 非法操作:index.php
+
+[ 2017-06-05T10:59:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/index
+ERR: 非法操作:index
+
+[ 2017-06-05T10:59:37+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/index
+ERR: 非法操作:index
+
+[ 2017-06-05T10:59:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/index
+ERR: 非法操作:index
+
+[ 2017-06-05T11:00:05+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:05+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:05+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:08+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:08+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:08+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:15+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:15+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:15+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:21+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:21+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:21+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:33+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:33+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:33+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:00:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/play_user.php
+ERR: 非法操作:play_user.php
+
+[ 2017-06-05T11:00:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:00:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:00:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:01:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:01:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:01:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:01:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:01:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:01:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:01:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:01:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:01:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:01:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:01:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:01:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:01:18+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:01:18+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:01:18+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:01:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:01:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:01:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:02:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T11:02:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T11:02:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T11:04:33+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=
+ERR: 非法操作:look.php
+
+[ 2017-06-05T11:04:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/download.php?id=
+ERR: 非法操作:download.php
+
+[ 2017-06-05T11:05:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=}
+ERR: 非法操作:look.php
+
+[ 2017-06-05T13:47:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:47:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:47:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:07+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:07+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:07+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:09+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:09+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:09+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:24+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:24+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:24+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:48:44+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:48:44+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:48:44+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:51:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/new_play.php?video_type=%E6%9C%80%E6%96%B0%E6%8E%A8%E5%87%BA
+ERR: 非法操作:new_play.php
+
+[ 2017-06-05T13:51:24+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:51:24+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:51:24+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:09+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:09+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:09+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T13:52:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:37+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T13:52:37+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T13:52:37+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T14:03:30+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=}
+ERR: 非法操作:look.php
+
+[ 2017-06-05T14:32:13+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/hotplay
+ERR: 1054:Unknown column 't2.video_type_id' in 'on clause'
+ [ SQL语句 ] : select t1.*, t2.tb_type_name from mp_video t1 join mp_video_type t2 on t1.tb_video_type = t2.video_type_id
+
+[ 2017-06-05T14:37:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/hotplay
+ERR: 1054:Unknown column 't2.tb_type_name' in 'field list'
+ [ SQL语句 ] : SELECT t1.*,t2.tb_type_name FROM mp_video t1 WHERE (  1 = 1  ) ORDER BY tb_video_play desc LIMIT 20  
+
+[ 2017-06-05T14:51:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T14:51:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T14:51:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T14:53:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/hotplay
+ERR: XML标签语法错误 : name='data'/
+
+[ 2017-06-05T15:06:31+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=}
+ERR: 非法操作:look.php
+
+[ 2017-06-05T15:06:31+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=}
+ERR: 非法操作:look.php
+
+[ 2017-06-05T15:24:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T15:24:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T15:24:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T15:32:51+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T15:32:51+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T15:32:51+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T15:32:55+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T15:32:55+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T15:32:55+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T15:32:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T15:32:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T15:32:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:14:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:14:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:14:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:15:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/new_play.php?video_type=%E6%9C%80%E6%96%B0%E6%8E%A8%E5%87%BA
+ERR: 非法操作:new_play.php
+
+[ 2017-06-05T16:15:54+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/play_user.php
+ERR: 非法操作:play_user.php
+
+[ 2017-06-05T16:15:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/video.php
+ERR: 非法操作:video.php
+
+[ 2017-06-05T16:16:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:16:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:16:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:21:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:21:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:21:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:21:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:21:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:21:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:21:41+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/play_user.php
+ERR: 非法操作:play_user.php
+
+[ 2017-06-05T16:23:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:23:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:23:26+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:23:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=
+ERR: 非法操作:look.php
+
+[ 2017-06-05T16:23:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=}
+ERR: 非法操作:look.php
+
+[ 2017-06-05T16:24:34+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:24:34+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:24:34+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:24:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:24:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:24:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:24:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T16:24:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T16:24:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T16:25:18+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/intro.php?id=
+ERR: 非法操作:intro.php
+
+[ 2017-06-05T16:25:33+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/intro.php?id=
+ERR: 非法操作:intro.php
+
+[ 2017-06-05T16:25:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/intro.php?id=
+ERR: 非法操作:intro.php
+
+[ 2017-06-05T16:33:08+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/intro/id/3
+ERR: 非法操作:intro
+
+[ 2017-06-05T16:36:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/showIntro/id/3
+ERR: 模板不存在:./Peter_player/Home/View/Hotplay/intro.html
+
+[ 2017-06-05T20:38:14+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=
+ERR: 非法操作:look.php
+
+[ 2017-06-05T20:41:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:41:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:41:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:41:25+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/look.php?video_id=$video2[video_id2].tb_video_id&video_name=$video2[video_id2].tb_video_name|escape:
+ERR: 非法操作:look.php
+
+[ 2017-06-05T20:41:31+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/look.php?video_id=$video1[video_id1].tb_video_id&video_name=$video1[video_id1].tb_video_name|escape:
+ERR: 非法操作:look.php
+
+[ 2017-06-05T20:45:45+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:45:45+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:45:45+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:45:48+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:45:48+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:45:48+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:45:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:45:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:45:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:45:51+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:45:51+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:45:51+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:45:53+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:45:53+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:45:53+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:45:54+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:45:54+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:45:54+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:45:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:45:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:45:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:46:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:46:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T20:46:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:50:21+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/Public/index/id/1
+ERR: 非法操作:Public
+
+[ 2017-06-05T20:53:21+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T20:53:21+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T20:53:21+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T22:38:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T22:38:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T22:38:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T22:38:47+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=
+ERR: 非法操作:look.php
+
+[ 2017-06-05T22:43:25+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T22:43:25+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T22:43:25+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T22:46:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-05T22:46:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-05T22:46:49+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-05T22:46:54+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=
+ERR: 非法操作:look.php
+
+[ 2017-06-05T22:47:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/download/id/2
+ERR: 非法操作:download
+
+[ 2017-06-05T22:49:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Hotplay/look.php?video_id=&video_name=
+ERR: 非法操作:look.php
+

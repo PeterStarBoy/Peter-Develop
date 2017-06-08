@@ -1,0 +1,831 @@
+[ 2017-06-06T09:16:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T09:16:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T09:16:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T09:16:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T09:16:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T09:16:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T10:24:34+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index/id/1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and tb_video_id = 1 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `mp_video_discuss` WHERE (  and tb_video_id = 1 ) 
+
+[ 2017-06-06T15:13:18+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T15:13:18+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T15:13:18+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:05:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+
+[ 2017-06-06T16:06:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2017-06-06T16:06:31+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-06-06T16:07:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Undefined variable: video_type D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Undefined variable: video_type D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 161 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 161 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 162 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 207 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 211 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 216 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 220 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 224 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 228 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 232 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 235 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 235 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 250 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 257 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 261 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 265 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 269 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 272 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 272 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 278 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 281 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 286 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 289 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 289 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 293 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 297 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 301 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 305 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 308 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 308 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 313 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 316 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 368 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 368 行.
+NOTIC: [8] Undefined variable: tb_video_date D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Programmer\Apache\htdocs\Peter_player_TP\ThinkPHP\Library\Think\View.class.php:95) D:\Programmer\Apache\htdocs\Peter_player_TP\index.php 第 30 行.
+
+[ 2017-06-06T16:08:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Undefined variable: video_type D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Undefined variable: video_type D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 161 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 161 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 162 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 207 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 211 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 216 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 220 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 224 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 228 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 232 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 235 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 235 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 250 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 257 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 261 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 265 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 269 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 272 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 272 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 278 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 281 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 286 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 289 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 289 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 293 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 297 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 301 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 305 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 308 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 308 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 313 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 316 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 368 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 368 行.
+NOTIC: [8] Undefined variable: tb_video_date D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Programmer\Apache\htdocs\Peter_player_TP\ThinkPHP\Library\Think\View.class.php:95) D:\Programmer\Apache\htdocs\Peter_player_TP\index.php 第 30 行.
+
+[ 2017-06-06T16:08:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-06-06T16:08:54+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Home\Controller\IndexController.class.php 第 76 行.
+
+[ 2017-06-06T16:09:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+NOTIC: [2] urlencode() expects parameter 1 to be string, array given D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Home\Controller\IndexController.class.php 第 76 行.
+
+[ 2017-06-06T16:09:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [2] urldecode() expects parameter 1 to be string, array given D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Home\Controller\IndexController.class.php 第 76 行.
+
+[ 2017-06-06T16:10:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Undefined variable: video_type D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Use of undefined constant type_id - assumed 'type_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Undefined variable: video_type D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 123 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 161 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 161 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 162 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 205 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 207 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 211 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 216 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 220 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 224 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 228 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 232 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 235 行.
+NOTIC: [8] Undefined variable: data D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 235 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 250 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 257 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 261 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 265 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 269 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 272 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 272 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 278 行.
+NOTIC: [8] Undefined variable: data_pre D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 281 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 286 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 289 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 289 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 293 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 297 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 301 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 305 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 308 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 308 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 313 行.
+NOTIC: [8] Undefined variable: data_next D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 316 行.
+NOTIC: [8] Use of undefined constant video_id - assumed 'video_id' D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 368 行.
+NOTIC: [8] Undefined variable: video D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 368 行.
+NOTIC: [8] Undefined variable: tb_video_date D:\Programmer\Apache\htdocs\Peter_player_TP\Peter_player\Runtime\Cache\Home\3f11044cd471fa30939acec78aa1e56f.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Programmer\Apache\htdocs\Peter_player_TP\ThinkPHP\Library\Think\View.class.php:95) D:\Programmer\Apache\htdocs\Peter_player_TP\index.php 第 30 行.
+
+[ 2017-06-06T16:15:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-06-06T16:17:03+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-06-06T16:17:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-06-06T16:17:25+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2017-06-06T16:29:30+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001140s ]
+
+[ 2017-06-06T16:34:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-06-06T16:34:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:34:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:34:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:37:45+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:37:45+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:37:45+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:37:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:37:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:37:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:37:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:37:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:37:58+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:38:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:38:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:38:04+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:39:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:39:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:39:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:39:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:39:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:39:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:39:34+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:39:34+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:39:34+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:41:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:41:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:41:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:41:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:41:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:41:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:42:57+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:42:57+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:42:57+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:43:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:43:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:43:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:43:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:43:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:43:06+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:43:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:43:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:43:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:45:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:45:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:45:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:46:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:46:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:46:02+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:46:05+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:46:05+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:46:05+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:49:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:49:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:49:23+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:51:22+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:51:22+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:51:22+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Index/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:53:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:53:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:53:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:53:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:53:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:53:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:54:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:54:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:54:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:54:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:54:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T16:54:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:54:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T16:54:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T16:54:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T17:07:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T17:07:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T17:07:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T17:09:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T17:09:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T17:09:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T17:09:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T17:09:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T17:09:36+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T17:13:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Comment/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T17:13:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Comment/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T17:13:50+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Comment/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T17:14:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T17:14:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T17:14:40+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T17:14:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T17:14:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T17:14:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T17:18:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T17:18:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T17:18:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:00:07+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Video_user/modvip/id/33
+ERR: 无法加载控制器:Video_user
+
+[ 2017-06-06T18:01:00+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Video_user/modvip/id/33
+ERR: 无法加载控制器:Video_user
+
+[ 2017-06-06T18:02:55+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Video_user/modvip/id/33
+ERR: 无法加载控制器:Video_user
+
+[ 2017-06-06T18:03:29+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Video_user/modvip/id/33
+ERR: 无法加载控制器:Video_user
+
+[ 2017-06-06T18:04:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Videouser/modvip/id/33
+ERR: 模板不存在:./Peter_player/Home/View/Videouser/modvip.html
+
+[ 2017-06-06T18:14:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:14:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:14:32+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:14:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:14:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:14:35+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:14:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=4&&video_user=mr
+ERR: 非法操作:individualism.php
+
+[ 2017-06-06T18:14:47+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:14:47+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:14:48+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:15:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:15:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:15:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:15:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:15:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:15:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:17:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:17:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:17:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:17:22+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:17:22+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:17:22+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:18:57+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:18:57+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:18:57+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:22:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:22:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:22:59+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:24:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:24:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:24:39+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:26:44+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:26:44+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:26:44+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:27:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:27:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:27:19+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:27:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:27:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:27:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:27:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:27:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:27:38+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:27:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T18:27:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:27:46+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:27:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T18:27:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T18:27:52+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T19:45:22+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/play_user.php
+ERR: 非法操作:play_user.php
+
+[ 2017-06-06T19:45:25+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/cancel_subscibe.php?video_user=peter
+ERR: 非法操作:cancel_subscibe.php
+
+[ 2017-06-06T19:45:45+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/my_video_manage.php?video_user=peter
+ERR: 非法操作:my_video_manage.php
+
+[ 2017-06-06T19:46:07+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/select_video.php
+ERR: 非法操作:select_video.php
+
+[ 2017-06-06T19:46:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T19:46:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T19:46:10+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T19:46:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/trans.php
+ERR: 非法操作:trans.php
+
+[ 2017-06-06T19:53:20+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+
+[ 2017-06-06T19:53:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+
+[ 2017-06-06T19:53:30+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+
+[ 2017-06-06T19:53:31+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/individualism.php?user_id=33&&video_user=peter
+ERR: 非法操作:individualism.php
+
+[ 2017-06-06T19:53:43+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/cancel_subscibe.php?video_user=peter
+ERR: 非法操作:cancel_subscibe.php
+
+[ 2017-06-06T20:11:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T20:11:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T20:11:12+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T20:11:14+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T20:11:14+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T20:11:14+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T20:11:15+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T20:11:15+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T20:11:15+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T20:11:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T20:11:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T20:11:16+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T20:11:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
+[ 2017-06-06T20:11:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T20:11:27+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T20:12:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video1[video_id1].tb_video_picture
+ERR: 非法操作:$video1[video_id1].tb_video_picture
+
+[ 2017-06-06T20:12:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$videos[video_ids].tb_video_picture
+ERR: 非法操作:$videos[video_ids].tb_video_picture
+
+[ 2017-06-06T20:12:28+08:00 ] 127.0.0.1 /Peter_player_TP/index.php/Home/Public/$video[video_id].tb_video_picture
+ERR: 非法操作:$video[video_id].tb_video_picture
+
